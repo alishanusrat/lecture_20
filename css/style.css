@@ -1,0 +1,37 @@
+.box{
+	background-color: lightcoral;
+	height:100px;
+	margin-bottom:5px;
+}
+.h_100{
+	height: 100px;
+}
+i.bi.bi-bank2{
+	 font-size: 50px;
+    color: red;
+
+}
+
+
+/*global variable*/
+:root {
+  --bs-blue: #0d6efd;
+  /*--bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";*/
+ 
+h2{
+	color:var(--bs-blue);
+	
+}
+/*global variable*/
+
+
+/*local variable*/
+h3{
+	color:var(--tx-color,purple);
+}
+
+/*local variable*/
+h4{
+	--teal: #0fdcdc;
+	color: var(--teal);
+}
